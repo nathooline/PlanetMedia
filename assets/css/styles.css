@@ -1,0 +1,89 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    height: 90vh;
+}
+
+* {
+    border: px solid green;
+}
+
+.cm{
+    color:rgb(228, 117, 191);
+}
+.letras{
+    height: 100%;
+}
+
+.logo{
+    font-size: 4rem;
+}
+.hdr {
+    display: flex;
+    background-color: #d6b7cf;
+    color: black;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;;
+}
+.hdr > div:nth-child(2){
+    text-align: right;
+    width: 100%;
+}
+
+.centro {
+    display: flex;
+       height: 100%;
+       background-color: rgb(214, 214, 214);
+}
+
+.menu {
+    height: 100%;
+    background-color: #deecf3;
+    width: 10%;
+    text-align: center;
+}
+.inf{
+    width: 100%;
+}
+
+a {
+    text-emphasis-color: rgb(117, 117, 117);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(173, 173, 173);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(151, 255, 32);
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: rgb(255, 115, 0);
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
