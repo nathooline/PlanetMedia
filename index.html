@@ -12,13 +12,16 @@
 </head>
 
 <body>
-    <div id="header"></div>
-    <div class="inf">
-        <button>Click on me!</button>
-        <div id="contenido"></div>
-    </div>
-    <div class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.
-    </div>
+    <div class="containter">
+
+        <div class="row">
+            <div id="header" class='col-lg-12'></div>
+        </div>
+        <div class="row">
+            <div id="slider" class="col-lg-3"></div>
+            <div id="contenido" class="col-lg-9"></div>
+        </div>
+        <div id="footer"></div>
     </div>
     <script src="vendors/jquery/jquery-3.3.1.min.js"></script>
     <script src="vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
